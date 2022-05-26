@@ -8,7 +8,7 @@
 import UIKit
 
 class BigButton: UIControl {
-
+    
     let titleLabel: UILabel = {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.font = .preferredFont(forTextStyle: .title1)

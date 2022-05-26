@@ -15,7 +15,7 @@ class MainView: UIView {
         $0.addTarget(self, action: #selector(downloadButtonDidTapped), for: .touchUpInside)
         return $0
     }(BigButton(frame: .zero))
-
+    
     lazy var getButton: BigButton = {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.configure(title: "Get")
@@ -33,7 +33,7 @@ class MainView: UIView {
     lazy var ourCourses: BigButton = {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.configure(title: "Our Courses")
-        
+        $0.addTarget(self, action: #selector(ourCoursesRequestButtonDidTapped), for: .touchUpInside)
         return $0
     }(BigButton(frame: .zero))
     
@@ -88,6 +88,7 @@ protocol MainViewDelegate: AnyObject {
     func mainViewDownloadButton(_ mainView: MainView)
     func mainViewGetRequestButton(_ mainView: MainView)
     func mainViewPostRequestButton(_ mainView: MainView)
+    func mainViewOurCoursesRequestButton(_ mainView: MainView)
 }
 
 extension MainView {
@@ -101,5 +102,9 @@ extension MainView {
     
     @objc private func postRequestButtonDidTapped(_ sender: UIButton) {
         delegate?.mainViewPostRequestButton(self)
+    }
+    
+    @objc private func ourCoursesRequestButtonDidTapped(_ sender: UIButton) {
+        delegate?.mainViewOurCoursesRequestButton(self)
     }
 }

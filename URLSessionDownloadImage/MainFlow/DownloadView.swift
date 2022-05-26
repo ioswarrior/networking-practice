@@ -8,7 +8,7 @@
 import UIKit
 
 class DownloadView: UIView {
-
+    
     let imageView: UIImageView = {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.contentMode = .scaleAspectFill

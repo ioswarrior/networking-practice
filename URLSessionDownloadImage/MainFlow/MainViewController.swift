@@ -23,6 +23,9 @@ class MainViewController: UIViewController {
 }
 
 extension MainViewController: MainViewDelegate {
+    
+    
+    
     func mainViewDownloadButton(_ mainView: MainView) {
         let imageVC = ImageViewController(nibName: nil, bundle: nil)
         navigationController?.pushViewController(imageVC, animated: true)
@@ -78,5 +81,10 @@ extension MainViewController: MainViewDelegate {
                 print(error)
             }
         }.resume()
+    }
+    
+    func mainViewOurCoursesRequestButton(_ mainView: MainView) {
+        let coursesVC = CoursesViewController(nibName: nil, bundle: nil)
+        navigationController?.pushViewController(coursesVC, animated: true)
     }
 }
