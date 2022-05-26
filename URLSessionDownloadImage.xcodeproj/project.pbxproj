@@ -11,6 +11,7 @@
 		0121508F2837658A0077FC98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0121508E2837658A0077FC98 /* SceneDelegate.swift */; };
 		012150962837658B0077FC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012150952837658B0077FC98 /* Assets.xcassets */; };
 		012150992837658B0077FC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012150972837658B0077FC98 /* LaunchScreen.storyboard */; };
+		012A1A28283FA86800739C33 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012A1A27283FA86800739C33 /* WebViewController.swift */; };
 		01DAC631283A810600385968 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAC630283A810600385968 /* MainViewController.swift */; };
 		01DAC634283A811D00385968 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAC633283A811D00385968 /* MainView.swift */; };
 		01DAC636283B97BC00385968 /* BigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAC635283B97BC00385968 /* BigButton.swift */; };
@@ -30,6 +31,7 @@
 		012150952837658B0077FC98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		012150982837658B0077FC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0121509A2837658B0077FC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012A1A27283FA86800739C33 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		01DAC630283A810600385968 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		01DAC633283A811D00385968 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		01DAC635283B97BC00385968 /* BigButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButton.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				01ECA9AB283E158D00248F8E /* OurCoursesFlow */,
 				01DAC632283A810A00385968 /* MainFlow */,
 				0121508C2837658A0077FC98 /* AppDelegate.swift */,
+				012A1A27283FA86800739C33 /* WebViewController.swift */,
 				01DAC635283B97BC00385968 /* BigButton.swift */,
 				0121508E2837658A0077FC98 /* SceneDelegate.swift */,
 				012150952837658B0077FC98 /* Assets.xcassets */,
@@ -188,6 +191,7 @@
 				01DAC636283B97BC00385968 /* BigButton.swift in Sources */,
 				01DAC638283BADF900385968 /* ImageViewController.swift in Sources */,
 				0121508F2837658A0077FC98 /* SceneDelegate.swift in Sources */,
+				012A1A28283FA86800739C33 /* WebViewController.swift in Sources */,
 				01ECA9B1283E27FA00248F8E /* CoursesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

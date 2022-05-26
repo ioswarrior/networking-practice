@@ -48,7 +48,7 @@ class CoursesTableViewCell: UITableViewCell {
         $0.translatesAutoresizingMaskIntoConstraints = false
         $0.axis = .vertical
         $0.spacing = 8
-        //        $0.distribution = .fillEqually
+
         return $0
     }(UIStackView(frame: .zero))
     
@@ -82,7 +82,6 @@ extension CoursesTableViewCell {
             stackView.leadingAnchor.constraint(equalTo: courseImageView.trailingAnchor, constant: 10),
             contentView.trailingAnchor.constraint(equalTo: stackView.trailingAnchor),
             contentView.bottomAnchor.constraint(greaterThanOrEqualTo: stackView.bottomAnchor),
-            
         ])
     }
 }
